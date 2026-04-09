@@ -1,7 +1,6 @@
 from dask_saturn import SaturnCluster, RegisterFiles, sync_files
 from distributed import Client
 import dask.dataframe as dd
-import pandas as pd
 import time
 
 cluster = SaturnCluster()
